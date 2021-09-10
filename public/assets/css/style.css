@@ -6073,10 +6073,6 @@ progress {
   padding-right: 12px;
   padding-left: 12px; }
 
-@media screen and (min-width: 575.98px) {
-  .container {
-    width: auto; } }
-
 @media screen and (min-width: 1399.98px) {
   .container {
     width: 1194px; } }
