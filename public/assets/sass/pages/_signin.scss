@@ -1,0 +1,9 @@
+.signin{
+    &__forgot{
+        @include flexbox;
+        color: white;
+        margin-top: 3rem;
+    }
+}
+
+

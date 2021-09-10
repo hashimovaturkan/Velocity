@@ -1,0 +1,71 @@
+body{
+    font-family: 'Yolk';
+    font-size: $default-font-size;
+    color: rgba($white,0.5);
+}
+
+.heading{
+    &--calc{
+        margin-bottom: 4.8rem;
+    }
+    &--news{
+        margin-bottom: 9.6rem;
+    }
+    &--center{
+        text-align: center;
+        margin-bottom: 4rem;
+        
+        &--line{
+            margin-bottom: 9.2rem;
+            position: relative;
+            &::after{
+                content: '';
+                position: absolute;
+                bottom: -1.6rem;
+                left: 50%;
+                transform: translateX(-50%);
+                height: 0.4rem;
+                width: 8.7rem;
+                background-color: $brand-color-light;
+            }
+        }
+    }
+    &__title{
+        font-weight: $fw-bold;
+        color: $brand-color-light;
+        margin-bottom: 0.8rem;
+        font-size: 4rem;
+        line-height: 5.6rem;
+        &--dark{
+            color: $black;
+        }
+        &--footer{
+            margin-bottom: 4rem;
+        }
+    }
+    &__text{
+        margin: 0 auto;
+        font-size: $default-font-size; //home
+        line-height: 2.8rem; //home
+        max-width: 80rem; //home
+        &--home{
+            margin: 0%;
+            max-width: 800px;
+        }
+        &--bigger{
+            font-size: 1.8rem
+        }
+        &--tariffs{
+            max-width: 680px;
+        }
+        &--innovations{
+            max-width: 68rem;
+            font-size: 1.8rem;
+            line-height: 3.2rem;
+        }
+    }
+    &--btwn{
+        @include flexbox(space-between);
+        margin-bottom: 7.2rem;
+    }
+}
