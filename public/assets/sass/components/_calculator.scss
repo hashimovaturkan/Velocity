@@ -79,3 +79,15 @@
     }
 
 }
+
+@media (max-width: 576px){
+    .calculator__custom-input--last {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 380px){
+    .calculator {
+        padding: 12px;
+    }
+}

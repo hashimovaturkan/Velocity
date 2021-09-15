@@ -111,7 +111,19 @@
     }
  }
 
+ @media (max-width: 480px) {
+    
+    .tariff{
+        padding: 2.1rem 2.5rem 2.1rem 3.1rem;
+    }
+ }
 
+ @media (max-width: 380px) {
+    
+    .tariff{
+        padding: 2.1rem 1.5rem 1.1rem 1.1rem;
+    }
+ }
 
 
 

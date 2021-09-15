@@ -101,15 +101,33 @@
 }
 
 @media (max-width: 575.98px) {
-    .tabs__adjacent{
-        padding: 1.5rem 3.5rem;
+    .tabs__adjacent {
+        padding: 1.5rem 3rem;
     }
     .calculator--little .tabs__adjacent{
         padding: 1.5rem 3.2rem;
     }
 }
 
-@media (max-width: 575.98px){
+@media (max-width: 480px){
 .tabs__adjacent {
     padding: 1.5rem 1.5rem;
+    
 }}
+
+@media (max-width: 420px){
+    .tabs__adjacent {
+        padding: 1.5rem 0.8rem;
+    }
+}
+
+@media (max-width: 380px){
+    .tabs__adjacent {
+        padding: 1.5rem 0rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .tabs__text{
+        display: none;
+    }
+}

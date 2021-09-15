@@ -112,3 +112,9 @@
         display: inline-block;
       }
 }
+
+@media (max-width: 575.98px){
+  .carousel__btn {
+      margin: 20px 35px;
+  }
+}
